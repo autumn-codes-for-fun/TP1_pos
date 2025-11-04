@@ -1,0 +1,12 @@
+1. What is lambda function in python and why do we use such a function in line 4 ? 
+    Answer: Lambda is an anonyme function that turns the sentence X into tokens with split function used on spaces (" ")
+    it returns a DOC object with the tokenized sentence. It avoids using a more complexe tokenizer this one only split on spaces
+2. Explain the last line of the predict_pos function.
+    Answer: this part:" model(sentence)" calls the simplified tokenizer with lambda function on sentence and it returns a DOC object with 
+    the tokenized sentence
+    this part:"for token in model(sentence)" boucle on each word in the sentence
+    this part"token.pos_ "associates a tag to the each token
+    thepredict_pos  returns for the setence "J' aime le chocolat this list:['PRON', 'VERB', 'DET', 'NOUN']
+3. Write a function, that takes as input a list of sentences and returns a list of PoS annotations
+ (i.e. a list of lists of PoS)
+ 
