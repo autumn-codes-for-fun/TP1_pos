@@ -18,6 +18,16 @@ Le corpus utilisé est Sequoia, issu des Universal Dependencies (UD) :
 👉 UD_French-Sequoia
 Installation:
 ouvrir ou copier coller le contenu du jupyter dans un IDE python
+
+Execution:
+
+## 🚀 Exécuter le notebook en ligne
+
+Clique sur le badge ci-dessous pour ouvrir le notebook directement dans Google Colab :
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/autumn-codes-for-fun/TP1_pos/blob/main/TP1_POSTAG.ipynb)
+
+---
 🧮 Évaluation du tagger
 
 Plusieurs fonctions ont été développées pour mesurer la performance :
